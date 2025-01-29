@@ -2,7 +2,7 @@ module "cloudwatch_dashboard" {
   source = "../aws-dashboard-module"
 
   dashboard_name = "my-application-dashboard"
-  
+
   widgets = {
     cpu_utilization = {
       type   = "metric"
